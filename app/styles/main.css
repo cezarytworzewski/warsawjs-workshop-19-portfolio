@@ -1,0 +1,71 @@
+body, h1, p {
+    margin: 0;
+}
+
+#page {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#banner {
+    background: url(https://picsum.photos/720/300) no-repeat center center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-banner {
+    -webkit-box-shadow: 14px -14px 37px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px -14px 37px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px -14px 37px 0px rgba(0,0,0,0.75);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+#menu {
+    background-color: darkgray;
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+
+#menu ul {
+    text-decoration: none;
+}
+
+#menu li {
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#menu li:hover {
+    background-color: gold;
+}
+
+#newsletter h1 {
+    font-size: xx-large;
+}
+
+label {
+    font-size: xx-large;
+}
+
+footer {
+    text-align: center;
+}
