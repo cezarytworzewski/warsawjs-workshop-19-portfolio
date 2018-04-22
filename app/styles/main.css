@@ -54,6 +54,10 @@ ul {
     text-decoration: none;
 }
 
+#menu a {
+    text-decoration: none;
+}
+
 #menu li:hover {
     background-color: gold;
 }
